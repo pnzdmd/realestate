@@ -24,6 +24,7 @@ const Navbar = () => {
           Estate
         </h1>
         <button className="btn">Войти</button>
+
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
             <a href="#">Главная</a>
@@ -38,6 +39,7 @@ const Navbar = () => {
             <a href="#">Контакты</a>
           </li>
         </ul>
+
         <div className="hamburger" onClick={handleClick}>
           {click ? <FaRegTimesCircle className="icon" /> : <HiOutlineMenuAlt4 className="icon" />}
         </div>
