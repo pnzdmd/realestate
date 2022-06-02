@@ -23,19 +23,19 @@ const Navbar = () => {
           </span>{' '}
           Estate
         </h1>
-        <button className="btn">Sign In</button>
+        <button className="btn">Войти</button>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
-            <a href="#">Home</a>
+            <a href="#">Главная</a>
           </li>
           <li>
-            <a href="#">Search</a>
+            <a href="#">Поиск</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">О нас</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">Контакты</a>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
