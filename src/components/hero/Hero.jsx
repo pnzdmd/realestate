@@ -14,7 +14,7 @@ const Hero = () => {
             <input type="text" placeholder="Поиск..." />
           </div>
           <div className="radio">
-            <input type="radio" checked />
+            <input type="radio" />
             <label>Buy</label>
             <input type="radio" />
             <label>Rent</label>
